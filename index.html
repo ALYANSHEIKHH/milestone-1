@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js" ></script>
+</head>
+<body>
+    <div class="resume-container">
+        <!-- Personal Information -->
+        <section class="personal-info">
+            <img src="profile.jpg" alt="Profile Picture" class="profile-picture">
+            <div class="info">
+                <h1>Alyan Sheikh</h1>
+                <p>Web Developer</p>
+                <p>Email: alyansheikhh123@gmail.com | Phone: +123 456 7890</p>
+                <p>Location: Karachi, Pakistan</p>
+            </div>
+        </section>
+
+        <!-- Toggle Buttons -->
+        <div class="toggle-buttons">
+            <button class="toggle-button" data-target="education"> Education</button>
+            <button class="toggle-button" data-target="skills"> Skills</button>
+            <button class="toggle-button" data-target="work-experience"> Work Experience</button>
+        </div>
+
+        <!-- Education -->
+        <section class="education" id="education">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Enter, Pre-Engineering</h3>
+                <p>Govt Islamia Scince College, 2022-2024</p>
+            </div>
+            <div class="education-item">
+                <h3>S.M PUBLIC ACADEMY</h3>
+                <p>Matric: A1 Grade</p>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="skills" id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>JavaScript, TypeScript</li>
+                <li>HTML, CSS, SCSS</li>
+                <li>Git, GitHub</li>
+            </ul>
+        </section>
+
+        <!-- Work Experience -->
+        <section class="work-experience" id="work-experience">
+            <h2>Work Experience</h2>
+            <div class="work-item">
+                <h3>Software Developer</h3>
+                <p>XYZ Company, 2019 - Present</p>
+                <p>Developed and maintained web applications using React, Node.js, and TypeScript.</p>
+            </div>
+            <div class="work-item">
+                <h3>Intern Developer</h3>
+                <p>CodSoft
+                    Issued Jun 2024
+                    Credential ID f4b7615</p>
+                <p>Worked on front-end development using HTML, CSS, and JavaScript.</p>
+            </div>
+        </section>
+    </div>
+
+    
+</body>
+</html>
